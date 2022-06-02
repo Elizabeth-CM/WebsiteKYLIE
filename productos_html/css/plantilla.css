@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Playfair Display', serif;
+}
+.flex{
+    display: flex;
+}
+
+.wrapper-nav{
+    width: 100%;
+    background: rgb(255,138,174);
+    background: linear-gradient(155deg, rgba(255,138,174,1) 0%, rgba(255,178,166,1) 100%);
+    height: 5.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper-img-logo{
+    width: 6em;
+    margin-left: 4em;
+}
+.wrapper-links{
+    margin-right: 1em;
+}
+.wrapper-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    margin: 0 0.3em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+}
+.wrapper-links a:hover{
+    background-color: white;
+    color: rgba(255,138,174,1);
+    border-radius: 0.2em;
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+.container-main{
+    width: 90%;
+    margin: 3em auto 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.wrapper-img-producto{
+    width: 32%;
+    padding-right: 3%;
+    display: flex;
+    align-items: center;
+    border-right: 0.2em solid pink;
+}
+.box-shado{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.wrapper-info{
+    width: 60%;
+}
+
+.wrapper-title{
+    font-size: 5em;
+    background: linear-gradient(155deg, rgba(255,138,174,1) 0%, rgba(255,178,166,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.3em;
+}
+.wrapper-price{
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+.wrapper-description{
+    width: 70%;
+    font-size: 1.1em;
+    margin-bottom: 3em;
+}
+.btn-agregar{
+    color: white;
+    background: rgb(255,138,174);
+    background: linear-gradient(155deg, rgba(255,138,174,1) 0%, rgba(255,178,166,1) 100%);
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    width: 10em;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin-bottom: 1em;
+}
+.btn-regresar{
+    background-color: white;
+    background: linear-gradient(155deg, rgba(255,138,174,1) 0%, rgba(255,178,166,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    width: 10em;
+    text-align: center;
+}
+
+.btn-agregar:hover{
+    background-color: white;
+    background: linear-gradient(155deg, rgba(255,138,174,1) 0%, rgba(255,178,166,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.btn-regresar:hover{
+    background: rgb(255,138,174);
+    background: linear-gradient(155deg, rgba(255,138,174,1) 0%, rgba(255,178,166,1) 100%);
+    transform: scale(1.1);
+    transition: 0.7s;
+    color: white;
+    -webkit-text-fill-color: white;
+}
+.btn-regresar a{
+    text-decoration: none;
+    color: white;
+}
